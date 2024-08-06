@@ -1,0 +1,945 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabook</title>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav class="navbar  navbar-expand-lg fixed-top overflow-hidden">
+        <div class="container">
+            <a href="#home" class="logo-link">
+                <div class="logobrand" style="color: black; text-decoration: none;">
+                    <span>Trabook</span>
+                    <img src="Vector.png" alt="">
+                </div>
+            </a>
+            
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navdiv collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav navs">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#footer">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Carosal2">Destination</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Carosal1">Tour</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <div class="btn-div">
+                    <button class="btn log-btn me-2">Login</button>
+                    <button class="btn sign-btn">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row">
+                <dir class="col-md-6">
+                    <div class="typo">
+                        <p class="intro-type">Get started your exciting <span class="journey">journey</span> with us.
+                        </p>
+                        <p class="intro-type2">
+                            A Team of experienced tourism professionals will provide you with the
+                            best advice and tips for your desire place.
+                        </p>
+                        <button class="btn discover-btn">Discover Now</button>
+
+                    </div>
+                </dir>
+                <dir class="col-md-6">
+                    <div class="img-area">
+                        <div class="img-container">
+                            <img class="man-img img-fluid w-100" src="tourist.png" alt="">
+                        </div>
+                        <div class="besttour animated-div">
+                            <img src="trophy-removebg-preview 1.png" class="tour-image" alt="">
+                            <p>Best Tour Award</p>
+                        </div>
+                        <div class="rating animated-div">
+                            <img src="star 1.png" class="rating-image" alt="">
+                            <div class="ratingdiv">
+                                <h4>27K</h4>
+                                <p>Customer Reviewed</p>
+                            </div>
+                        </div>
+                        <div class="explore animated-div">
+                            <img src="google-maps 1.png" class="explore-image" alt="">
+                            <div class="explorediv">
+                                <h4>Explore</h4>
+                                <p>Every cornar of the world with us</p>
+                            </div>
+                        </div>
+                    </div>
+                </dir>
+            </div>
+            <div class="row hero-bar m-auto mt-4 p-3">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="hero-icon location">
+                        <span>Location</span>
+                        <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-angle-down " id="location-icon" aria-hidden="true"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pakistan</a></li>
+                            <li><a href="#">UK</a></li>
+                            <li><a href="#">Turkey</a></li>
+                            <li><a href="#">Spain</a></li>
+                            <li><a href="#">Germany</a></li>
+                        </ul>
+                    </div>
+                    <h6>Where are you going</h6>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="hero-icon Date">
+                        <span>Date</span>
+                        <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-angle-down " id="location-icon" aria-hidden="true"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <input type="date">
+                        </ul>
+                    </div>
+                    <h6>When you will go</h6>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="hero-icon Guests">
+                        <span>Guests</span>
+                        <button class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-angle-down " id="location-icon" aria-hidden="true"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                        </ul>
+                    </div>
+                    <h6>Number of guests</h6>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <button class="btn hero-bar-button w-100">Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- need -->
+    <section class="carosal-ractangle-section pt-5 pb-5" id="ractangles">
+        <div class="container carosal2-padding">
+            <div class="row carosal2upperPart ractangle-upper-part">
+                <div class="col-md-8 carosal-intro">
+                    <h1>Things you need <span>to do</span></h1>
+                    <p>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford.
+                    </p>
+                </div>
+                <div class="col-md-4 carosal2-svg">
+                    <img class="planes" src="Element.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-right carosal-controllars" style="display: none;">
+                    <a class="btn mb-3 mr-1 carusal-btns" href="#carouselExampleIndicatorsthings" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn mb-3 carusal-btns" href="#carouselExampleIndicatorsthings" role="button"
+                        data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicatorsthings" class="carousel slide" data-ride="carousel"
+                        data-bs-interval="false">
+
+                        <div class="carousel-inner carousal-2 ractangle">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card othercards animated-div">
+                                            <div class="card-body">
+                                                <img src="Group.png" alt="">
+                                                <h2>Sign Up</h2>
+                                                <p>Completes all the work  with planning and processing</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card othercards animated-div">
+                                            <div class="card-body">
+                                                <img src="Group (2).png" alt="">
+                                                <h2>Exciting Travel</h2>
+                                                <p>Start and explore a wide range of exciting travel experience.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card othercards animated-div">
+                                            <div class="card-body">
+                                                <img src="Group (1).png" alt="">
+                                                <h2>Exciting Travel</h2>
+                                                <p>Start and explore a wide range of exciting travel experience.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--  Carosal 1 -->
+    <section class="carosal1-section pt-5 pb-5" id="Carosal1">
+        <div class="container">
+            <div class="row carosal1upperPart">
+                <div class="col-md-8 carosal-intro c2intro">
+                    <h1>Exclusive <span>deals & discounts</span></h1>
+                    <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!
+                    </p>
+                </div>
+                <div class="col-md-4 carosal2-svg">
+                    <img src="tree.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner carousal-1">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Firn</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>Spain</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$750</del></span>
+                                                        <span class="actual-price">$650</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img1.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Firnze</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>Spain</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$950</del></span>
+                                                        <span class="actual-price">$850</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img2.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Paris</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>France</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$950</del></span>
+                                                        <span class="actual-price">$850</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img3.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>UK</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>UK</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$800</del></span>
+                                                        <span class="actual-price">$780</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img4.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Lahore</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>PK</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$750</del></span>
+                                                        <span class="actual-price">$650</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img5.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Sindh</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.2</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>PK</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$750</del></span>
+                                                        <span class="actual-price">$550</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img6.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Multan</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>PK</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$950</del></span>
+                                                        <span class="actual-price">$850</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card card-hover-effect">
+                                            <img class="img-fluid" alt="100%x280" src="carosal1img6.png">
+                                            <button class="btn card-hover-btn">Book Now</button>
+                                            <div class="card-body">
+                                                <div class="city-rating">
+                                                    <h3>Karchi</h3>
+                                                    <div class="cardbody-row1-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>1.1</span>
+                                                    </div>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="map-dark.png" alt="">
+                                                        <span>PK</span>
+                                                    </div>
+                                                    <div class="prices">
+                                                        <span class="cut-price"><del>$950</del></span>
+                                                        <span class="actual-price">$850</span>
+                                                    </div>
+
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-right deals-carosal-controllars">
+                    <a class="btn mb-3 mr-1 carusal-btns" href="#carouselExampleIndicators2" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn mb-3 carusal-btns" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Carosal Section 2 -->
+
+    <section class="carosal2-section pt-5 pb-5" id="Carosal2">
+        <div class="container">
+            <div class="row carosal2upperPart">
+                <div class="col-md-8 carosal-intro">
+                    <h1>Best <span>vacation plan</span></h1>
+                    <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!
+                    </p>
+                </div>
+                <div class="col-md-4 carosal2-svg">
+                    <img src="tree.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-right carosal-controllars">
+                    <a class="btn mb-3 mr-1 carusal-btns" href="#carouselExampleIndicators1" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn mb-3 carusal-btns" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner carousal-2">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img5.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>Rome, Italty</h3>
+                                                    <span>$5,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>10 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img2.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>London,UK</h3>
+                                                    <span>$2,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>07 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img3.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>Osaka,Japan</h3>
+                                                    <span>$5,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>10 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img2.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>London,UK</h3>
+                                                    <span>$2,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>07 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img5.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>Rome, Italty</h3>
+                                                    <span>$5,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>10 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="carosal2img6.png">
+                                            <div class="card-body">
+                                                <div class="city-price">
+                                                    <h3>Osaka,Japan</h3>
+                                                    <span>$5,42k</span>
+                                                </div>
+                                                <dir class="carosalbody-row2">
+                                                    <div class="cardbody-row2-part1">
+                                                        <img src="Navigation.png" alt="">
+                                                        <span>10 Days Trip</span>
+                                                    </div>
+                                                    <div class="cardbody-row2-part2">
+                                                        <img src="star 1.png" alt="">
+                                                        <span>4.1</span>
+                                                    </div>
+                                                </dir>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testomonila -->
+    <section class="testimonial-section py-5 testo">
+        <!-- <div class="col-md-4 carosal2-svg right">
+            <img class="planes" src="images/Element2.png" alt="">
+        </div> -->
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <h2 class="text-md-center text-lg-left">What people say <br> <span class="highlighted-text">about
+                            us.</span></h2>
+                    <p class="description text-md-center text-lg-left testop">Our Clients send us a bunch of smiles with
+                        our services and we love them.</p>
+                    <div class="arrows text-md-center text-lg-left">
+                        <span class="arrow-left" onclick="showFirstCard()"><i class="fa fa-arrow-left"></i></span>
+                        <span class="arrow-right" onclick="showHiddenCard()"><i class="fa fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 position-relative mt-4 mt-lg-0">
+                    <div class="testimonial first-card testocard" id="firstCard">
+                        <img src="testimonial-1.png" alt="User Image" class="testimonial-img">
+                        <div class="testimonial-content testocontent">
+                            <p>"On the Windows talking painted pasture yet its express parties use. Sure last upon he
+                                same as knew next. Of believed or diverted no."</p>
+                            <h5>Mike Taylor</h5>
+                            <p class="location">Lahore, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <!-- Hidden Card -->
+                    <div class="testimonial hidden-card testocard" id="hiddenCard">
+                        <img src="testimonial-2.jpg" alt="User Image" class="testimonial-img">
+                        <div class="testimonial-content testocontent">
+                            <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he
+                                same as knew next. Of believed or diverted no.”</p>
+                            <h5>Chris Thomas</h5>
+                            <p class="location">New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- blog  -->
+
+    <section class="blog-section py-5" id="blog">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="mb-4">Get update with <span class="highlighted-text">latest blog</span></h2>
+                </div>
+            </div>
+            <div class="row blog-cards">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card" data-index="0">
+                        <img src="Image.png" class="card-img-top" alt="Blog Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Amazing a Year of Travelling.</h5>
+                            <p class="card-text"><small class="text-muted">July 27, 2021</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card" data-index="1">
+                        <img src="Image1.png" class="card-img-top" alt="Blog Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Travel far enough, you meet yourself.</h5>
+                            <p class="card-text"><small class="text-muted">July 27, 2021</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card" data-index="2">
+                        <img src="Image2.png" class="card-img-top" alt="Blog Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Save Money While Visiting Africa.</h5>
+                            <p class="card-text"><small class="text-muted">July 27, 2021</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card" data-index="3">
+                        <img src="Image3.png" class="card-img-top" alt="Blog Image 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Reflections on 5 Months of Travel.</h5>
+                            <p class="card-text"><small class="text-muted">July 27, 2021</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="dot-indicators">
+                        <span class="dot" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- subscribe section  -->
+<div class="container text-center mt-5">
+    <div class="subscribe-box p-5">
+        <h2>Subscribe to get exclusive deals & offer</h2>
+        <div class="bbb-wrapper fl-wrap">
+            <div class="subcribe-form fl-wrap">
+                <form id="subscribe" novalidate="true">
+                    <input class="enteremail" name="EMAIL" id="subscribe-email" placeholder="Email"
+                        spellcheck="false" type="text">
+                    <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Subscribe</button>
+                    <label for="subscribe-email" class="subscribe-message"></label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer  -->
+    <footer class="footer mt-5" id="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Trabook</h4>
+                    <p class="fotp">Book your trip in minute, get full control for much longer.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Logistic</a></li>
+                        <li><a href="#">Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help/FAQ</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>More</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Press Centre</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Low fare tips</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row bar">
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <p class="mt-4">&copy; TN2024 All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="terms-conditions mt-4">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        let isHiddenCardVisible = false;
+
+        function showHiddenCard() {
+            var hiddenCard = document.getElementById("hiddenCard");
+            var firstCard = document.getElementById("firstCard");
+
+            if (!isHiddenCardVisible) {
+                hiddenCard.style.transform = "translateY(0) translateX(0)";
+                hiddenCard.style.zIndex = "3"; // Bring the hidden card over the first card
+                firstCard.style.transform = "translateY(-20px) translateX(-20px)";
+                firstCard.style.zIndex = "2"; // Push the first card behind
+            }
+
+            isHiddenCardVisible = true;
+        }
+
+        function showFirstCard() {
+            var hiddenCard = document.getElementById("hiddenCard");
+            var firstCard = document.getElementById("firstCard");
+
+            if (isHiddenCardVisible) {
+                hiddenCard.style.transform = "translateY(80px) translateX(20px)";
+                hiddenCard.style.zIndex = "1"; // Send the hidden card back
+                firstCard.style.transform = "translateY(0) translateX(0)";
+                firstCard.style.zIndex = "2"; // Bring the first card back in front
+            }
+
+            isHiddenCardVisible = false;
+        }
+       
+    </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script> $(document).ready(function () {
+        $('.card').hover(
+            function () {
+                var index = $(this).data('index');
+                $('.dot').removeClass('active');
+                $('.dot[data-index="' + index + '"]').addClass('active');
+            },
+            function () {
+                $('.dot').removeClass('active');
+            }
+        );
+    });</script>
+    <script>
+        const card_hover = document.querySelectorAll(".card-hover-effect");
+// const card_hover_button = document.querySelectorAll(".card-hover-btn");
+
+card_hover.forEach(cards =>{
+    cards.addEventListener('mouseenter', ()=>{
+        const card_hover_button = cards.querySelector('.card-hover-btn');
+        card_hover_button.style.display = "block";
+    })
+    cards.addEventListener('mouseleave', ()=>{
+        const card_hover_button = cards.querySelector('.card-hover-btn');
+        card_hover_button.style.display = "none";
+    })
+})
+    </script>
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>
